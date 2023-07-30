@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+class Point:
+    def __init__(self, x, y, z):
+        self.x = x
+        self.y = y
+        self.z = z
+
+    def sqSum(self):
+        return self.x**2 + self.y**2 + self.z**2
+
+# Test the implementation with sample properties (1, 3, 5)
+point = Point(1, 3, 5)
+result = point.sqSum()
+print(result)  # Output: 35
+
+
+# In[ ]:
+
+
+
+
